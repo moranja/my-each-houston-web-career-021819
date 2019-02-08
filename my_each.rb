@@ -5,7 +5,3 @@ def my_each (array)
     i += 1
   end
 end
-
-my_each(["a","b","c","d"]) do |ta|
-  puts ta
-end
