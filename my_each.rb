@@ -6,4 +6,6 @@ def my_each (array)
   end
 end
 
-my_each(["a","b","c","d"])
+my_each(["a","b","c","d"]) do |ta|
+  puts ta
+end
