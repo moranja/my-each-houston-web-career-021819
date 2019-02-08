@@ -52,7 +52,7 @@ describe "my_each" do
     tas = ['arel', 'jon', 'logan', 'spencer']
 
     # run the method
-    expect(my_each(tas) do |tas|
+    expect(my_each(tas) do |ta|
     # Do nothing on yield
     # check if it returns correct values
     end).to contain_exactly('arel', 'jon', 'logan', 'spencer')
